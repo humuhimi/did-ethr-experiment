@@ -59,3 +59,8 @@ REPORT_GAS=true npx hardhat test
 ## DID Ethr Testing Nuances
 
 The `DIDRegistry` contract is designed for registering and managing DIDs (Decentralized Identifiers). Using Ganache for local testing allows you to verify the contract's behavior before deploying it to a live network. It is recommended to add test cases to validate functionalities such as DID registration, updates, and deletions.
+
+## Troubleshooting Hardhat and Ganache Integration
+
+If you encounter issues with the integration between Hardhat and Ganache, please refer to the following video tutorial for guidance:
+[Hardhat and Ganache Integration Troubleshooting](https://www.youtube.com/watch?v=3Eo6euUnlVU&ab_channel=Soft.Tomatoes)

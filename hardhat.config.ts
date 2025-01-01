@@ -4,6 +4,7 @@ import * as dotenv from 'dotenv';
 import "@nomicfoundation/hardhat-ethers";
 import path from 'path';
 import { fileURLToPath } from 'url';
+import "@nomiclabs/hardhat-ganache";
 
 // ESモジュール用の__dirname代替
 const __filename = fileURLToPath(import.meta.url);
@@ -21,8 +22,8 @@ const account2 = process.env.ACCOUNT_2_PRIVATE_KEY as string
 const config: HardhatUserConfig = {
   solidity: "0.8.28",
   networks: {
-    ganache: {
-      url: process.env.RPC_URL, // GanacheのRPC URL
+    localganache: {
+      url: process.env.RPC_URL,
       accounts: [account1, account2],
     },
   },
