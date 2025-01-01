@@ -1,4 +1,5 @@
 // SPDX-License-Identifier: MIT
+// NOTE: example
 pragma solidity ^0.8.28;
 
 contract DIDRegistry {

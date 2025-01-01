@@ -1,3 +1,4 @@
+// NOTE: FOR DEPLOY TEST
 import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 const DIDRegistryModule = buildModule("DIDRegistryModule", (m) => {

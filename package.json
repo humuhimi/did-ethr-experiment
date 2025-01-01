@@ -11,8 +11,10 @@
   "description": "",
   "dependencies": {
     "did-jwt": "^8.0.4",
+    "did-jwt-vc": "^4.0.4",
     "dotenv": "^16.4.7",
-    "ethr-did": "^3.0.21"
+    "ethr-did": "^3.0.21",
+    "ethr-did-resolver": "^11.0.2"
   },
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
